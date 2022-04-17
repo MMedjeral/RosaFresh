@@ -12,4 +12,4 @@ firewall-cmd --zone=laptop --permanent --set-target=DROP
 firewall-cmd --reload
 systemctl restart firewalld.service
 
-firewall-cmd --get-active­zones
+firewall-cmd --get-active-zones
